@@ -1,0 +1,307 @@
+{
+  "name": "echarts",
+  "size": 3835461,
+  "children": [
+    {
+      "name": "action",
+      "size": 2307,
+      "children": [
+        {
+          "name": "action/roamHelper.ts",
+          "size": 2307,
+          "value": 2307
+        }
+      ],
+      "value": 2307
+    },
+    {
+      "name": "animation",
+      "size": 44515,
+      "children": [
+        {
+          "name": "animation/basicTrasition.ts",
+          "size": 11322,
+          "value": 11322
+        },
+        {
+          "name": "animation/universalTransition.ts",
+          "size": 24487,
+          "value": 24487
+        }
+      ],
+      "value": 44515
+    },
+    {
+      "name": "chart",
+      "size": 1059597,
+      "children": [
+        {
+          "name": "chart/bar",
+          "size": 90538,
+          "children": [
+            {
+              "name": "chart/bar/install.ts",
+              "size": 2627,
+              "value": 2627
+            },
+            {
+              "name": "chart/bar/installPictorialBar.ts",
+              "size": 1325,
+              "value": 1325
+            }
+          ],
+          "value": 90538
+        },
+        {
+          "name": "chart/bar.ts",
+          "size": 885,
+          "value": 885
+        },
+        {
+          "name": "chart/pie",
+          "size": 44655,
+          "children": [
+            {
+              "name": "chart/pie/PieSeries.ts",
+              "size": 9492,
+              "value": 9492
+            },
+            {
+              "name": "chart/pie/PieView.ts",
+              "size": 10737,
+              "value": 10737
+            },
+            {
+              "name": "chart/pie/install.ts",
+              "size": 1625,
+              "value": 1625
+            },
+            {
+              "name": "chart/pie/labelLayout.ts",
+              "size": 16039,
+              "value": 16039
+            },
+            {
+              "name": "chart/pie/pieLayout.ts",
+              "size": 6762,
+              "value": 6762
+            }
+          ],
+          "value": 44655
+        },
+        {
+          "name": "debug",
+          "size": 3492,
+          "children": [
+            {
+              "name": "debug/showDebugDirtyRect.ts",
+              "size": 3492,
+              "value": 3492
+            }
+          ],
+          "value": 3492
+        },
+        {
+          "name": "dom",
+          "size": 22220,
+          "children": [
+            {
+              "name": "dom/HandlerProxy.ts",
+              "size": 22220,
+              "value": 22220
+            }
+          ],
+          "value": 22220
+        },
+        {
+          "name": "export.ts",
+          "size": 3317,
+          "value": 3317
+        },
+        {
+          "name": "graphic",
+          "size": 169365,
+          "children": [
+           
+            {
+              "name": "graphic/LinearGradient.ts",
+              "size": 1096,
+              "value": 1096
+            },
+            {
+              "name": "graphic/Path.ts",
+              "size": 21284,
+              "value": 21284
+            },
+            {
+              "name": "graphic/Pattern.ts",
+              "size": 1721,
+              "value": 1721
+            },
+            {
+              "name": "graphic/RadialGradient.ts",
+              "size": 1020,
+              "value": 1020
+            },
+            {
+              "name": "graphic/TSpan.ts",
+              "size": 2844,
+              "value": 2844
+            },
+            {
+              "name": "graphic/Text.ts",
+              "size": 33862,
+              "value": 33862
+            },
+            {
+              "name": "graphic/constants.ts",
+              "size": 168,
+              "value": 168
+            },
+            {
+              "name": "graphic/helper",
+              "size": 47692,
+              "children": [
+               
+                {
+                  "name": "graphic/shape/Polygon.ts",
+                  "size": 811,
+                  "value": 811
+                },
+                {
+                  "name": "graphic/shape/Polyline.ts",
+                  "size": 1023,
+                  "value": 1023
+                },
+                {
+                  "name": "graphic/shape/Rect.ts",
+                  "size": 1927,
+                  "value": 1927
+                },
+                {
+                  "name": "graphic/shape/Ring.ts",
+                  "size": 781,
+                  "value": 781
+                }
+              ],
+              "value": 22479
+            }
+          ],
+          "value": 169365
+        },
+        {
+          "name": "mixin",
+          "size": 3505,
+          "children": [
+            {
+              "name": "mixin/Draggable.ts",
+              "size": 3505,
+              "value": 3505
+            }
+          ],
+          "value": 3505
+        },
+        {
+          "name": "svg",
+          "size": 63006,
+          "children": [
+            {
+              "name": "svg/Painter.ts",
+              "size": 15932,
+              "value": 15932
+            },
+            
+            {
+              "name": "svg/graphic.ts",
+              "size": 13503,
+              "value": 13503
+            },
+            {
+              "name": "svg/helper",
+              "size": 33341,
+              "children": [
+                {
+                  "name": "svg/helper/ClippathManager.ts",
+                  "size": 5600,
+                  "value": 5600
+                },
+                {
+                  "name": "svg/helper/Definable.ts",
+                  "size": 7152,
+                  "value": 7152
+                },
+                {
+                  "name": "svg/helper/GradientManager.ts",
+                  "size": 8044,
+                  "value": 8044
+                }
+              ],
+              "value": 33341
+            },
+            {
+              "name": "svg/svg.ts",
+              "size": 110,
+              "value": 110
+            }
+          ],
+          "value": 63006
+        },
+        {
+          "name": "tool",
+          "size": 122091,
+          "children": [
+            {
+              "name": "tool/color.ts",
+              "size": 19085,
+              "value": 19085
+            },
+            {
+              "name": "tool/convertPath.ts",
+              "size": 8959,
+              "value": 8959
+            },
+            {
+              "name": "tool/dividePath.ts",
+              "size": 12704,
+              "value": 12704
+            } 
+          ],
+          "value": 122091
+        },
+        {
+          "name": "vml",
+          "size": 42681,
+          "children": [
+            {
+              "name": "vml/Painter.ts",
+              "size": 5103,
+              "value": 5103
+            },
+            {
+              "name": "vml/core.ts",
+              "size": 1242,
+              "value": 1242
+            },
+            {
+              "name": "vml/graphic.ts",
+              "size": 36190,
+              "value": 36190
+            },
+            {
+              "name": "vml/vml.ts",
+              "size": 146,
+              "value": 146
+            }
+          ],
+          "value": 42681
+        },
+        {
+          "name": "zrender.ts",
+          "size": 13102,
+          "value": 13102
+        }
+      ]
+    }
+  ],
+  "value": 3835461
+}

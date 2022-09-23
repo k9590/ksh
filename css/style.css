@@ -1,0 +1,89 @@
+body{
+    background-image:url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* 总体盒子 */
+.viewprot{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1920px;
+    min-width: 1024px;
+    padding: 1.75rem 1.25rem 0;
+    margin: 0 auto;
+    /* margin-top: .625rem; */
+    background-image: url("../img/title01.png ");
+    background-repeat: no-repeat;
+    background-size: contain;   
+    background-repeat: no-repeat;
+}
+/* 左侧盒子 */
+.view_left{
+    width: 25%;
+    height: 100%;
+}
+
+.file{
+    height: 3.5rem;
+    margin-top:-0.8rem
+}
+.container{
+    height: 70%;
+    
+}
+
+.layout{
+    height: 3.5rem;
+    margin-top: 0.4rem;
+
+}
+.laybox{
+    height: 75%;
+}
+.Control{
+    height: 3.5rem;
+    margin-top: 0.5rem;
+
+}
+.control{
+    height: 75%;
+    font-style: 189px;
+}
+/* 中间盒子 */
+.content{
+    /* background-color: aqua; */
+    width: 40%;
+    height: 100%
+}
+.earth{
+    height: 6rem;
+    margin-bottom: 1rem;
+}
+.biaoq{
+    height: 2.5rem;
+    /* margin-top: 1rem; */
+}
+
+/* 右侧盒子 */
+.view_right{
+    /* background-color: rgb(127, 255, 148); */
+    width: 25%;
+    height: 100%;
+}
+
+.kuh{
+    width: 5.5rem;
+    height:1.25rem ;
+    margin-top: -1.25rem;
+    margin-left: 1rem;
+}
+
+.kku{
+    height: 3.5rem;
+    /* margin-top:0.8rem */
+}
+
+.kkuu{
+    height: 3.5rem;
+    /* margin-top:0.8rem */
+}

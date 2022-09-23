@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云智能运维</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="./css/golbal.css">
+    <link rel="icon" type="image/x-icon" href="tx.jpg"/>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="clock" class="shijian"></div>
+    <div class="viewprot">
+        <!-- /* 左侧盒子 */ -->
+        <div class="view_left .inner">
+            <div class="file">
+                <div class="title">
+                    <div class="t_left"></div>
+                    <div class="t_cont">运维KPI分析</div>
+                    <div class="t_right"></div>
+                </div>
+                <div class="container inner">
+
+                </div>
+            </div>
+            <div class="layout">
+                <div class="title">
+                    <div class="t_left"></div>
+                    <div class="t_cont">故障分布</div>
+                    <div class="t_right"></div>
+                </div>
+                <div class="laybox inner">
+
+                </div>
+            </div>
+            <div class="Control">
+                <div class="title">
+                    <div class="t_left"></div>
+                    <div class="t_cont">工作流效率</div>
+                    <div class="t_right"></div>
+                </div>
+                <div class="control inner"> </div>
+            </div>
+        </div>
+        <!-- /* 中间盒子 */ -->
+        <div class="content">
+            <div class="earth"></div>
+            <div>
+                <div class="title">
+                    <div class="t_left"></div>
+                    <div class="t_cont">年终绩效</div>
+                    <div class="t_right"></div>
+                </div>
+                <div class="biaoq inner"></div>
+            </div>
+        </div>
+        <!-- /* 右侧盒子 */ -->
+        <div class="view_right">
+            <div class="kuh"></div>
+            <div class="title">
+                <div class="t_left"></div>
+                <div class="t_cont">党支部人员</div>
+                <div class="t_right"></div>
+            </div>
+            <div class="kku inner">
+            </div>
+            <br><br>
+            <div class="title">
+                <div class="t_left"></div>
+                <div class="t_cont">净水器分析</div>
+                <div class="t_right"></div>
+            </div>
+            <div class="kkuu inner"></div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="./js/echarts.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/echarts-gl.min.js"></script>
+    <script src="./js/world.js"></script>
+    <script src="./js/indexs.js"></script>
+</body>
+<script>
+    window.onload = startTime;
+    var timer = null;
+    function startTime() {
+        var now = new Date();		// 获取当前的时间的毫秒数
+        var h = now.getHours();		// 获取now的小时 (0 ~ 23)
+        var m = now.getMinutes();	// 获取now的分钟 (0 ~ 59)
+        var s = now.getSeconds();	// 获取now的秒数 (0 ~ 59)
+        // 利用两位数字表示 分钟 和 秒数
+        h = h < 10 ? '0' + h : h;
+        m = m < 10 ? '0' + m : m;
+        s = s < 10 ? '0' + s : s;
+        document.getElementById('clock').innerHTML = h + ":" + m + ":" + s
+        timer = setTimeout('startTime()', 1000);         //在指定的毫秒数后调用函数或计算表达式
+    }
+</script>
+</html>

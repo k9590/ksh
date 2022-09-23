@@ -1,0 +1,67 @@
+/* 全局css */
+*{
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    list-style: none;   /* 点取消 */
+}
+
+html,body{
+    height: 100%;
+}
+/* 时间 */
+.shijian {
+    text-align: center;
+    width: 200px;
+    margin-left: 1rem;
+    margin-top: 0.4rem;
+    margin-bottom: -1rem;
+    color: rgb(17, 0, 255);
+    font-size:40px
+}
+/* 模块标题 */
+.title{
+    display: flex;
+    justify-content: space-around;
+    height: 6% ;
+    /* background-color: blanchedalmond; */
+    width: 70%;
+    margin: 0 auto;
+}
+/* 标题左右小图标 */
+.t_left.t_right{
+    width: 20%;
+    height: 100%;
+    /* background-color: blue; */
+}
+.t_cont{
+    width:5.375rem;
+    color: #4cf9ff;
+    font-size: .225rem;
+    text-align: center;
+}
+.t_left{
+    width: 3.4375rem;
+    background-image: url("../img/zuo.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-right: 0.1rem;
+}
+.t_right{
+    width: 3.4375rem;
+    background-image: url("../img/you.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    margin-left: 0.1rem;
+}
+
+/* 小背景 */
+.inner{
+    font-size: .2rem;
+    padding: .25rem;
+    border: 1px solid #ccc;
+    border-width: .225rem  .225rem  .225rem  .225rem;
+    border-image-source: url("../img/xbg.png");
+    border-image-slice: 18 16 17 17;
+}
